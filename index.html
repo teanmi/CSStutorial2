@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav>
+    <nav id="home-nav">
       <h2 class="company white"><span class="orange">Acme</span> Web Design</h2>
       <ul class="links">
         <li class="link current"><a href="#">HOME</a></li>
@@ -16,32 +16,56 @@
         <li class="link"><a href="">SERVICES</a></li>
       </ul>
     </nav>
-    <main>
+    <main id="home-main">
       <h1 class="title-main orange">Affordable Proffesional Websites</h1>
-      <p class="description-main orange">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus reprehenderit nobis vero? Maxime iusto, atque eum soluta possimus cumque dolores cupiditate quos aperiam nulla veritatis corrupti, ad, animi repellendus aut! Lorem ipsum dolor sit amet, consectetur </p>
+      <p class="description-main orange">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
+        reprehenderit nobis vero? Maxime iusto, atque eum soluta possimus cumque
+        dolores cupiditate quos aperiam nulla veritatis corrupti, ad, animi
+        repellendus aut! Lorem ipsum dolor sit amet, consectetur
+      </p>
     </main>
     <section class="newsletter">
       <h3 class="call-to-action">Subscribe To Our Newsletter</h3>
-      <input class="text" type="text" name="" id="" placeholder="Enter Email...">
-      <button class="btn">Subscribe</button>
+      <div class="get-email">
+        <input
+          class="text"
+          type="text"
+          name=""
+          id=""
+          placeholder="Enter Email..."
+        />
+        <button class="btn">Subscribe</button>
+      </div>
     </section>
-    <section>
+    <section id="services">
       <article class="article" id="left">
-        <img src="images/html5-logo.png" alt="html5">
+        <img src="images/html5-logo.png" alt="html5" />
         <h4 class="title-sub">HTML5 Markup</h4>
-        <p class="description-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quasi quae ipsa. Dolorem magnam illum quas ipsum dicta</p>
+        <p class="description-sub">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          quasi quae ipsa. Dolorem magnam illum quas ipsum dicta
+        </p>
       </article>
-      <article class="article">
-        <img src="images/css3-logo.png" alt="css3">
+      <article class="article" id="middle">
+        <img src="images/css3-logo.png" alt="css3" />
         <h4 class="title-sub">CSS3 Styling</h4>
-        <p class="description-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quasi quae ipsa. Dolorem magnam illum quas ipsum dicta</p>
+        <p class="description-sub">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          quasi quae ipsa. Dolorem magnam illum quas ipsum dicta
+        </p>
       </article>
       <article class="article" id="right">
-        <img src="images/computer.jpg" alt="computer">
+        <img src="images/computer.jpg" alt="computer" />
         <h4 class="title-sub">Graphic Design</h4>
-        <p class="description-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quasi quae ipsa. Dolorem magnam illum quas ipsum dicta</p>
+        <p class="description-sub">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          quasi quae ipsa. Dolorem magnam illum quas ipsum dicta
+        </p>
       </article>
     </section>
-    <footer>Designed by Michael Telakowicz</footer>
+    <footer class="home-footer">
+      <h5>Designed by Michael Telakowicz</h5>
+    </footer>
   </body>
 </html>

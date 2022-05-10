@@ -8,7 +8,7 @@
 }
 
 img {
-  width: 100px;
+  width: 75px;
 }
 
 body {
@@ -24,7 +24,7 @@ body {
   color: var(--white)
 }
 
-nav {
+#home-nav {
   background-color: var(--blue);
   white-space: nowrap;
   padding: 30px 5%;
@@ -58,7 +58,7 @@ nav {
   color: var(--orange);
 }
 
-main {
+#home-main {
   background-image: url(images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,4 +77,69 @@ main {
   font-size: 1.05rem;
   width: 85%;
   margin: auto;
+}
+
+.newsletter {
+  white-space: nowrap;
+  padding: 27.5px 10%;
+  background-color: var(--blue);
+}
+
+.call-to-action {
+  display: inline-block;
+  color: var(--white);
+}
+
+.get-email {
+  float: right;
+}
+
+.get-email > .text {
+  padding: 7px;
+  padding-right: 10px;
+  border-style: none;
+  border-radius: 0;
+}
+
+.get-email > .btn {
+  background-color: var(--orange);
+  color: var(--white);
+  border: none;
+  padding: 7px;
+}
+
+#services {
+  padding: 25px 0;
+}
+
+.article {
+  display: inline-block;
+  width: 29.5%;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 1%;
+}
+
+#left {
+  margin-left: 3%;
+}
+
+#right {
+  margin-right: 3%;
+}
+
+.article > .title-sub {
+  margin: 10px 0;
+}
+
+.article > p {
+  max-width: 320px;
+  margin: auto;
+}
+
+.home-footer {
+  background-color: var(--orange);
+  color: var(--white);
+  padding: 50px;
+  text-align: center;
 }
